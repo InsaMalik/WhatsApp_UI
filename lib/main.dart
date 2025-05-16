@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
         useMaterial3: false,
+        fontFamily: "Roboto",
       ),
       home:Slaspscreen(),
     );

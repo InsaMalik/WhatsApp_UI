@@ -43,6 +43,7 @@ class Onbonding extends StatelessWidget {
         callback:(){
         Navigator.push(context,MaterialPageRoute(builder: (context)=>loginscreen()),);
        }, buttonname: 'Agree and continue'),
+       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
