@@ -29,5 +29,23 @@ class Uihelper {
     fontWeight: fontWeight,
     ),);
  }
-
+ static CustomContainer(TextEditingController controller){
+  return Container(
+   height:50,
+   width: 50,
+   decoration:BoxDecoration(
+    borderRadius: BorderRadius.circular(10),
+    color:Color.fromARGB(217, 205, 205, 194),
+   ),
+   child: Padding(
+     padding: const EdgeInsets.all(8.0),
+     child: TextField(
+      controller:controller,
+      decoration: InputDecoration(
+        border: InputBorder.none,
+      ),
+     ),
+   ),
+  );
+ } 
 }
