@@ -1,3 +1,4 @@
+import 'package:whatsapp/screen/homescreen.dart';
 import 'package:whatsapp/screen/slaspscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
         fontFamily: "Roboto",
       ),
-      home:Slaspscreen(),
+      home:Homescreen(),
     );
   }
 }
