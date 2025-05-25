@@ -24,10 +24,8 @@ class Homescreen extends StatelessWidget {
           toolbarHeight: 100,
           title: Uihelper.CustomText(text:"WhatsApp", height: 18,color: Colors.white,fontWeight: FontWeight.bold),
           actions: [
-            Padding(
-              padding: const EdgeInsets.only(right: 20),
-              child: IconButton(onPressed: (){}, icon: Image.asset("assets/images/Search.png",height: 25,fit: BoxFit.cover,)),
-            ),
+            IconButton(onPressed: (){}, icon: Image.asset("assets/images/Search.png",height: 25,fit: BoxFit.cover,)),
+            IconButton(onPressed: (){}, icon: Icon(Icons.more_vert,color: Colors.white,)),
           ],
         ),
         body:TabBarView(children: [

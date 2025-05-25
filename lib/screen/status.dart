@@ -73,7 +73,7 @@ class Status extends StatelessWidget {
           ),
           SizedBox(height: 30,),
           Padding(
-            padding: const EdgeInsets.only(left: 20,right: 20),
+            padding: const EdgeInsets.only(left: 15,right: 15),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [

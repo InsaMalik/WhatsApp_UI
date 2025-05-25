@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
         fontFamily: "Roboto",
       ),
-      home:Homescreen(),
+      home:Slaspscreen(),
     );
   }
 }
